@@ -38,7 +38,6 @@ function startQuiz(quizTheme) {
   replayButton.style.display = 'none';
   timerElement.style.display = 'inline-block'; // Afficher le timer lors du début du quiz
   document.getElementById("progression").value = 0;
-  document.getElementById("progression").value = 0;
   questionIndex = 0;
   score = 0;
   loadQuestion(); // Charger la première question
@@ -98,29 +97,19 @@ function updateTimerDisplay() {
   secondes = secondes < 10 ? "0" + secondes : secondes;
   timerElement.innerText = minutes + ":" + secondes;
 }
-
-
-
-//function pour barre de progression
 function growProgression (){
   progress +=10;
   document.getElementById("progression").value = progress;
-  document.getElementById("progression").setAttribute("style", "background-color:white; height: 10px; border-radius: 10px; width: " + progress + "%;");
+  document.getElementById("progression").setAttribute("style", "background-color: white; height: 20px; border-radius: 10px; width: " + progress + "%;");
 }
-
 buttonNext.addEventListener("click", growProgression);
 replayButton.addEventListener("click", progressionzero);
-
 function progressionzero(){
   if( progress >=100){
   progress=0 }
   document.getElementById("progression").value = 0;
   console.log(progress+"progress")
 }
-
-
-
-
 // Fonction pour vérifier les réponses des joueurs
 function checkAnswer(buttonAnswer, currentQuestion) {
   if (time < 0) return; // Empêche de répondre après la fin du timer
