@@ -9,7 +9,7 @@ Ce quiz inclut des effets visuels et sonores pour rendre l’expérience plus im
 - Questions à choix multiples
 - Timer pour chaque question
 - Affichage d’une explication après chaque réponse
-- Score final avec message personnalisé
+- Score final avec message personnalisé (score pas encore fonctionnel)
 - Effets confetti pour les meilleurs scores 🎉
 - Option pour rejouer le quiz
 - Animations visuelles de fond (style rétro 80s)
@@ -36,3 +36,10 @@ Ce quiz inclut des effets visuels et sonores pour rendre l’expérience plus im
 
 ```bash
 git clone https://github.com/ton-utilisateur/quiz-multi-theme.git
+```
+
+## Améliorations à venir
+
+- Affichage du score à la fin de la partie
+- Faire en sorte que le background-color ne prenne que le texte explicatif
+- Possibilité pour l'utilisateur de couper le son
