@@ -35,7 +35,7 @@ Ce quiz inclut des effets visuels et sonores pour rendre l’expérience plus im
 1. Cloner le projet :
 
 ```bash
-git clone https://github.com/ton-utilisateur/quiz-multi-theme.git
+git clone https://github.com/vanessa-vg/ada-quiz-multi-theme.git
 ```
 
 ## Améliorations à venir
