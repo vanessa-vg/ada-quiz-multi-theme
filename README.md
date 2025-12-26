@@ -1,4 +1,4 @@
-# Quiz Multi-Thème avec Animations
+# Quiz multi-thème avec animations
 
 Un quiz interactif en ligne permettant de tester ses connaissances sur différents thèmes : Culture générale, Animaux, Football et Anatomie.  
 Ce quiz inclut des effets visuels et sonores pour rendre l’expérience plus immersive et ludique.
